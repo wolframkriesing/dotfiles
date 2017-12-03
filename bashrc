@@ -53,14 +53,6 @@ function proml {
 
 proml
 
-if [ -f ~/.git-completion.bash ]; then
-  . ~/.git-completion.bash
-fi
-
-###
-### git stuff end
-###
-
 export TDDBIN_ROOT_DOMAIN=u
 export KATAS_SERVICE_DOMAIN=katas.tddbin.local
 ulimit -n 2560 # because browserify needs this when compiling react :(
