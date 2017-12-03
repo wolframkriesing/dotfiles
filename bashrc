@@ -11,6 +11,7 @@ alias ...="cd ../.."
 
 alias cdpicos="cd ~/work/picostitch/picostitch/website; clear;"
 alias cdw="cd ~/work/; clear"
+alias cddotfiles="cd ~/programming/my-repos/dotfiles; clear"
 # open the app's menu on a connected android, useful with react-native, to fast reload an app manually
 alias menu="adb shell input keyevent KEYCODE_MENU"
 
@@ -52,14 +53,6 @@ function proml {
 }
 
 proml
-
-if [ -f ~/.git-completion.bash ]; then
-  . ~/.git-completion.bash
-fi
-
-###
-### git stuff end
-###
 
 export TDDBIN_ROOT_DOMAIN=u
 export KATAS_SERVICE_DOMAIN=katas.tddbin.local
