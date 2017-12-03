@@ -1,9 +1,6 @@
 [core]
 	quotepath = false
 	excludesfile = /Users/cain/.gitignore_global
-[user]
-	name = Wolfram Kriesing
-	email = wolfram+github@kriesing.de
 [color]
 	ui = auto
 [filter "lfs"]
