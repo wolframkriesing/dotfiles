@@ -86,3 +86,7 @@ function cdelix() {
   cd ~/programming/my-repos/elix
   nix-shell --packages nodejs-8_x
 }
+
+function http_server() {
+  python -m SimpleHTTPServer $1
+}
