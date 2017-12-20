@@ -84,5 +84,5 @@ function copyPhotosFromCharosPhone() {
 
 function cdelix() {
   cd ~/programming/my-repos/elix
-  nix-shell --packages=nodejs-8_x
+  nix-shell --packages nodejs-8_x
 }
