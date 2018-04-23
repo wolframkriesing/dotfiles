@@ -24,3 +24,5 @@
 [user]
 	name = wolframkriesing
 	email = wolfram+github@kriesing.de
+[credential]
+	helper = osxkeychain
