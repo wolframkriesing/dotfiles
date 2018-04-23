@@ -89,6 +89,11 @@ function cdelix() {
   nix-shell --packages nodejs-8_x
 }
 
+function cdlitjsx() {
+  cd ~/programming/my-repos/litJSX
+  nix-shell --packages nodejs-8_x
+}
+
 function http_server() {
   python -m SimpleHTTPServer $1
 }
