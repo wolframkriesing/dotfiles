@@ -27,6 +27,7 @@ function dns_flush_cache() {
 }
 
 PATH=./node_modules/.bin:$PATH
+PATH=~/Library/Android/sdk/platform-tools:$PATH
 
 ###
 ### git branch name and highlighting in prompt
@@ -55,6 +56,8 @@ function proml {
 proml
 
 export TDDBIN_ROOT_DOMAIN=u
+export TDDBIN_FRONTEND_DOMAIN=tddbin.local
+export TDDBIN_FRONTEND_PORT=54321
 export KATAS_SERVICE_DOMAIN=katas.tddbin.local
 ulimit -n 2560 # because browserify needs this when compiling react :(
 
