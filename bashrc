@@ -85,6 +85,10 @@ function copyPhotosFromCharosPhone() {
   adb pull -a /storage/3737-3432/DCIM/100ANDRO .
 }
 
+function copyPhotosFromPichisPhone() {
+  adb pull -a /storage/sdcard1/DCIM/Camera .
+}
+
 function cdelix() {
   cd ~/programming/my-repos/elix
   nix-shell --packages nodejs-8_x
