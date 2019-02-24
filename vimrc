@@ -5,6 +5,7 @@ syntax on
 set number
 set ruler
 set showcmd
+set noswapfile
 
 colorscheme pablo
 " make comment color more readable
