@@ -79,6 +79,11 @@ function authForGitlab() {
   git config user.email "w+gitlab@kriesing.de"
 }
 
+function authForCodeberg() {
+  git config user.name "Wolfram Kriesing"
+  git config user.email "w+codeberg@kriesing.de"
+}
+
 function copyPhotosFromCharosPhone() {
   adb pull -a /storage/self/primary/DCIM/Camera .
   adb pull -a /storage/3737-3432/DCIM/Camera .
