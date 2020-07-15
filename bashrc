@@ -26,8 +26,8 @@ function dns_flush_cache() {
   sudo killall -HUP mDNSResponder
 }
 
-PATH=./node_modules/.bin:$PATH
-PATH=~/Library/Android/sdk/platform-tools:$PATH
+# PATH=./node_modules/.bin:$PATH
+# PATH=~/Library/Android/sdk/platform-tools:$PATH
 
 ###
 ### git branch name and highlighting in prompt
