@@ -1,3 +1,0 @@
-[submodule "vim/bundle/vim-gfm-syntax"]
-	path = vim/bundle/vim-gfm-syntax
-	url = https://github.com/rhysd/vim-gfm-syntax.git
