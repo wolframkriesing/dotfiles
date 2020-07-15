@@ -61,7 +61,7 @@ export KATAS_SERVICE_DOMAIN=katas.tddbin.local
 ulimit -n 2560 # because browserify needs this when compiling react :(
 
 # load file, to provide all its functions
-source "./.dockerfunc"
+source "~/.dockerfunc"
 
 #
 # picostitch
