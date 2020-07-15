@@ -50,7 +50,6 @@ function proml {
   # END OPTIONAL
   local     DEFAULT="\[\033[0m\]"
   PS1="\u@\h:\W$LIGHT_BLUE\$(parse_git_branch)$DEFAULT> "
-
 }
 
 proml
@@ -60,6 +59,9 @@ export TDDBIN_FRONTEND_DOMAIN=tddbin.local
 export TDDBIN_FRONTEND_PORT=54321
 export KATAS_SERVICE_DOMAIN=katas.tddbin.local
 ulimit -n 2560 # because browserify needs this when compiling react :(
+
+# load file, to provide all its functions
+source "./.dockerfunc"
 
 #
 # picostitch
